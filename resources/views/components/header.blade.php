@@ -6,7 +6,7 @@
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-20 items-center justify-between">
                 <div class="md:flex md:items-center md:gap-12">
-                    <a class="block text-teal-600" href="{{ route('welcome') }}">
+                    <a class="block text-teal-600" href="">
                         <span class="sr-only">Home</span>
                         <x-application-mark class="block h-9 max-h-[36px]" />
                     </a>
@@ -16,7 +16,7 @@
                     <nav aria-label="Global">
                         <ul class="flex items-center gap-6 text-lg">
                             <li>
-                                <x-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
+                                <x-nav-link href="" :active="request()->routeIs('welcome')">
                                     {{ __('Inicio') }}
                                 </x-nav-link>
                             </li>
@@ -232,7 +232,7 @@
         }" class="hidden lg:hidden ">
 
             <div class="pt-2 pb-3 space-y-1">
-                <x-responsive-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
+                <x-responsive-nav-link href="" :active="request()->routeIs('welcome')">
                     {{ __('inicio') }}
                 </x-responsive-nav-link>
 
