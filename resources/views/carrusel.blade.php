@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -12,24 +12,12 @@
     <x-header></x-header>
 
     <!-- Contenedor del carrusel -->
-    <div class="relative w-full max-w-3xl mx-auto overflow-hidden mt-4">
-        <div class="flex place-content-center">
-    <div class="carousel">
-        <!-- Tus elementos del carrusel aquí -->
-    </div>
-</div>
-        <!-- Contenedor de imágenes -->
+    <div class="relative w-full h-85 overflow-hidden"> <!-- Altura fija ajustada aquí -->
         <div id="carousel" class="flex transition-transform duration-700 ease-out">
             <!-- Itera sobre las imágenes -->
             @foreach($images as $image)
-                <div class="min-w-full">
-                    <img src="{{ asset('storage/carrusel/si.jpg') }}" alt="Imagen del carrusel" class="w-full h-full object-cover">
-                </div>
-                <div class="min-w-full">
-                    <img src="{{ asset('storage/carrusel/xd.jpg') }}" alt="Imagen del carrusel" class="w-full h-full object-cover">
-                </div>
-                <div class="min-w-full">
-                    <img src="{{ asset('storage/carrusel/ño.jpg') }}" alt="Imagen del carrusel" class="w-full h-full object-cover">
+                <div class="min-w-full h-80"> <!-- Altura fija para cada slide -->
+                    <img src="{{ asset('storage/carrusel/' . $image) }}" alt="Imagen del carrusel" class="w-full h-full object-cover">
                 </div>
             @endforeach
         </div>
