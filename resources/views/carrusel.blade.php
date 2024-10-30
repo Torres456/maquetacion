@@ -38,13 +38,24 @@
         const prevButton = document.getElementById('prevButton');
         let currentIndex = 0;
         const totalSlides = {{ count($images) }};
+        const slideInterval = 3000; // Intervalo en milisegundos (3 segundos)
 
+        // Avanzar a la siguiente imagen automáticamente cada cierto tiempo
+        const autoSlide = setInterval(() => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        }, slideInterval);
+
+        // Mueve al siguiente slide manualmente
         nextButton.addEventListener('click', () => {
+            clearInterval(autoSlide); // Limpia el intervalo si se navega manualmente
             currentIndex = (currentIndex + 1) % totalSlides;
             updateCarousel();
         });
 
+        // Mueve al slide anterior manualmente
         prevButton.addEventListener('click', () => {
+            clearInterval(autoSlide); // Limpia el intervalo si se navega manualmente
             currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
             updateCarousel();
         });
