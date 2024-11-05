@@ -341,6 +341,7 @@
                         <h3 class="text-lg font-semibold text-gray-800">Scheduling</h3>
                         <p class="text-sm text-gray-600">Manage appointments and plan your workflow</p>
                         </div>
+                        
                     </div>
                     </li>
         
