@@ -54,12 +54,11 @@
         }
     </script>
     
-
-<div class="flex items-center justify-center py-4 md:py-8 flex-wrap">
-    <h1 class="text-gray-700 text-2xl py-7">Maquetando</h1>
+    <div class="flex flex-col items-center justify-center py-4 md:py-8">
+        <h1 class="text-gray-700 text-2xl py-7">Maquetando</h1>
+        <h2 class="text-black">Títulos</h2>
+    </div>
     
-    <h2 >Titulos</h2>
-</div>
 
 <div class="grid grid-cols-1  sm:grid-cols-2   md:grid-cols-3 gap-4">
     <div class="flex flex-col items-center">
