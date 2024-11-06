@@ -64,28 +64,36 @@
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt="">
         <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
-            análisis especiales 
+            Análisis especiales 
         </button>
     </div>
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt="">
-        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Julio</button>
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Alimentos</button>
     </div>
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-2.jpg" alt="">
-        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Bocchi</button>
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Biologia Molecular</button>
     </div>
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-3.jpg" alt="">
-        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Julio</button>
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Fitosanidad</button>
     </div>
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-4.jpg" alt="">
-        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Julio</button>
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Fertilidad de suelos</button>
     </div>
     <div class="flex flex-col items-center">
         <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
-        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Julio</button>
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Rt carnicos</button>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Rt vegetales</button>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-5.jpg" alt="">
+        <button type="button" class="text-white bg-lime-600 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mt-2 dark:bg-lime-700 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Inocuidad</button>
     </div>
 </div>
 
