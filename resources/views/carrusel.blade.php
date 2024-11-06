@@ -49,9 +49,10 @@
        });
 
        function updateCarousel() {
-           const offset = currentIndex * -100;
-           carousel.style.transform = translateX(${offset}%);
-       }
+    const offset = currentIndex * -100;
+    carousel.style.transform = `translateX(${offset}%)`; // Nota las comillas invertidas ` `
+}
+
    </script>
    
    <div class="flex flex-col items-center justify-center py-4 md:py-8 bg-white dark:bg-gray-900 p-4"> 
