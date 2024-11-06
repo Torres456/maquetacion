@@ -145,7 +145,7 @@
             </script> 
            
               <div>
-                <main class="flex-1 p-6">
+                <main class="flex-1 p-6 lg:ml-64">
                        <div class="max-w-4xl mx-auto space-y-4">                       
                        <ul class="space-y-4">
                            <li class="bg-white dark:bg-gray-900 shadow-md rounded-lg p-4 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">                            
